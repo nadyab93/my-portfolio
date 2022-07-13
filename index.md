@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/nadyab93/my-portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nadyab93/my-portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html> <html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/697ac72b07.js"
+      crossorigin="anonymous" ></script>
+      <link rel="stylesheet" href="./style.css" />
+    <title>Nadya Bharrat</title>
+</head>    
+<body>
+    <!-- Desktop Navbar -->
+    <section id="nav">
+      <div class="nav-bar">
+        <div class="links">
+          <ul>
+            <li><a href="#hero" id="name">Nadya Bharrat</a></li>
+            <li><a href="#projects" id="project">Projects</a></li>
+            <li><a href="#aboutme" id="about">About Me</a></li>
+            <li><a href="#contactme" id="contact">Contact Me</a></li>
+        </ul>
+    </div>
+  </div>
+</section>
+<!-- Mobile Nav Bar -->
+<section id="mobile-nav">
+    <div class="mobile-nav-bar">
+      <div class="links">
+        <ul>
+            <li>
+                <a href="#hero"><i class="fas fa-home"></i></a>
+              </li>
+              <li>
+                <a href="#projects"><i class="far fa-folder-open"></i></a>
+              </li>
+              <li>
+                <a href="#aboutme"><i class="far fa-user"></i></a>
+            </li>
+            <li>
+              <a href="#contactme"><i class="fas fa-envelope-open-text"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+          <div class="overlay"></div>
+          <div class="image-container"></div>
+        </div>
+        <div class="hero-text">
+          <h1><span class="firstWord">Junior Web</span><br />Developer Student</h1>
+          <a
+          href="./assets/resume/Nadya JWD Resume.pdf"
+          target="_blank"
+          download="Nadya JWD resume"
+          class="resume-cta"
+          ><span class="resume-text">Resume</span></a
+        >
+    </div>
+</section>
+<!-- Project Section -->
+<section id="projects">
+  <div class="project-container">
+    <div class="project-header">Projects</div>
+    <div class="projects">
+      <div class="project-item">
+        <div class="event-project">
+          <div class="text-container">
+           
